@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { routes } from '@/data/routes';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.globalnakliyat.com.tr';
+  const baseUrl = 'https://www.istanbulparcaesyatasima.com';
 
   const routeUrls = routes.map((route) => ({
     url: `${baseUrl}/${route.slug}`,

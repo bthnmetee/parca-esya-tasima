@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://www.globalnakliyat.com.tr/sitemap.xml',
+    sitemap: 'https://www.istanbulparcaesyatasima.com/sitemap.xml',
   };
 }
