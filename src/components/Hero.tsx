@@ -10,10 +10,10 @@ interface HeroProps {
 export default function Hero({ 
   title, 
   subtitle, 
-  bgImage = "/images/122045558_2674360682829285_1270275525547055910_o.jpg" 
+  bgImage = "/images/global-nakliye.jpg" 
 }: HeroProps) {
   return (
-    <div className="relative h-[80vh] min-h-[600px] w-full overflow-hidden flex items-center justify-center mt-20 lg:mt-24">
+    <div className="relative h-[80vh] min-h-[600px] w-full overflow-hidden flex items-center justify-center">
       {/* Background Image with Zoom Effect */}
       <div className="absolute inset-0 z-0">
         <Image

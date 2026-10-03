@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: "Global Nakliyat",
     images: [
       {
-        url: "/images/122101908_2674360342829319_6697841315808544910_o.jpg",
+        url: "/images/global-nakliye.jpg",
         width: 1200,
         height: 630,
         alt: "Global Nakliyat Parça Eşya Taşıma",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Global Nakliyat | Şehirler Arası Parça Eşya Taşıma",
     description: "İstanbul çıkışlı Ege ve Akdeniz rotalarında sigortalı, güvenli parsiyel nakliyat.",
-    images: ["/images/122101908_2674360342829319_6697841315808544910_o.jpg"],
+    images: ["/images/global-nakliye.jpg"],
   },
   robots: {
     index: true,

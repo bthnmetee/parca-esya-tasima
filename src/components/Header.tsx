@@ -374,9 +374,9 @@ export default function Header() {
                     {/* Kategori başlığı - ikon ile */}
                     <div className="flex items-center gap-2.5 mb-4 pb-3 border-b-2 border-[#e6b422]">
                       <span className="text-[#e6b422]">{category.icon}</span>
-                      <h4 className="text-white font-bold text-[13px] tracking-wider uppercase">
+                      <span className="text-white font-bold text-[13px] tracking-wider uppercase">
                         {category.title}
-                      </h4>
+                      </span>
                     </div>
                     
                     {/* Ana liste */}

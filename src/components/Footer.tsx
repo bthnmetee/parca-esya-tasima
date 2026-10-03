@@ -41,7 +41,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div className="lg:col-span-1">
-            <h3 className="font-heading font-bold text-xl mb-6 text-white">Hızlı Menü</h3>
+            <p className="font-heading font-bold text-xl mb-6 text-white">Hızlı Menü</p>
             <ul className="space-y-3">
               <li><Link href="/" className="text-gray-300 hover:text-[#e6b422] transition-colors">Ana Sayfa</Link></li>
               <li><Link href="/sehirler-arasi-parca-esya-tasima" className="text-gray-300 hover:text-[#e6b422] transition-colors">Parça Eşya Taşıma</Link></li>
@@ -54,7 +54,7 @@ export default function Footer() {
 
           {/* Services */}
           <div className="lg:col-span-1">
-            <h3 className="font-heading font-bold text-xl mb-6 text-white">Özel Hizmetlerimiz</h3>
+            <p className="font-heading font-bold text-xl mb-6 text-white">Özel Hizmetlerimiz</p>
             <ul className="space-y-3">
               {services.map(service => (
                 <li key={service.id}>
@@ -68,11 +68,11 @@ export default function Footer() {
 
           {/* Popular Regions */}
           <div className="lg:col-span-1">
-            <h3 className="font-heading font-bold text-xl mb-6 text-white">Popüler Rotalar</h3>
+            <p className="font-heading font-bold text-xl mb-6 text-white">Popüler Rotalar</p>
             <div className="space-y-6">
               {Object.entries(routesByRegion).slice(0, 2).map(([region, routes]) => (
                 <div key={region}>
-                  <h4 className="font-bold text-[#e6b422] mb-2 text-xs uppercase tracking-wider">{region} Rotaları</h4>
+                  <p className="font-bold text-[#e6b422] mb-2 text-xs uppercase tracking-wider">{region} Rotaları</p>
                   <ul className="space-y-2">
                     {routes.slice(0, 3).map(route => (
                       <li key={route.slug}>

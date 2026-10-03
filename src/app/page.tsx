@@ -19,7 +19,7 @@ export default function Home() {
       {
         "@type": "MovingCompany",
         "name": "Global Nakliyat",
-        "image": "https://www.globalnakliyat.com.tr/images/122101908_2674360342829319_6697841315808544910_o.jpg",
+        "image": "https://www.globalnakliyat.com.tr/images/global-nakliye.jpg",
         "description": "İstanbul çıkışlı Ege ve Akdeniz rotalarında sigortalı, güvenli ve ekonomik şehirler arası parça eşya taşıma.",
         "address": {
           "@type": "PostalAddress",
@@ -315,7 +315,7 @@ export default function Home() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/118742880_2615638202034867_3408035255474320490_n.jpg"
+            src="/images/global-nakliye.jpg"
             alt="Global Nakliyat Filo"
             fill
             className="object-cover"

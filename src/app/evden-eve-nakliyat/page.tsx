@@ -67,6 +67,7 @@ export default function EvdenEveNakliyatPage() {
       </section>
 
       <ServiceSteps />
+
       <CTABanner title="Evinizi Güvenle Taşıyalım" subtitle="Ücretsiz ekspertiz hizmetimizden yararlanmak ve evden eve nakliyat fiyatlarımızı öğrenmek için hemen iletişime geçin." />
     </>
   );

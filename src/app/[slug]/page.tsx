@@ -119,7 +119,7 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
       <Hero 
         title={route.h1} 
         subtitle={`${route.cityFrom} ve ${route.city} arasında düzenli, sigortalı ve ekonomik parsiyel taşıma hizmeti.`}
-        bgImage="/images/118742880_2615638202034867_3408035255474320490_n.jpg"
+        bgImage="/images/global-nakliye.jpg"
       />
 
       {/* Breadcrumb */}
@@ -163,7 +163,7 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
             <div className="lg:w-1/2 w-full">
               <div className="relative h-[400px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/118833877_2623351991263488_7009477033501235308_o.jpg"
+                  src="/images/global-nakliye.jpg"
                   alt={`${route.cityFrom} ${route.city} parsiyel eşya taşıma - Global Nakliyat`}
                   fill
                   className="object-cover"
