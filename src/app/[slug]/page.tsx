@@ -18,7 +18,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const resolvedParams = await params;
   const route = getRouteBySlug(resolvedParams.slug);
-  
+
   if (!route) {
     return {
       title: "Sayfa Bulunamadı - Global Nakliyat"
@@ -116,8 +116,8 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
 
-      <Hero 
-        title={route.h1} 
+      <Hero
+        title={route.h1}
         subtitle={`${route.cityFrom} ve ${route.city} arasında düzenli, sigortalı ve ekonomik parsiyel taşıma hizmeti.`}
         bgImage="/images/global-nakliye.jpg"
       />
@@ -136,7 +136,7 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
           </nav>
         </div>
       </div>
-            {/* SEO Introduction Content */}
+      {/* SEO Introduction Content */}
       <section className="py-16 md:py-24 bg-white">
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex flex-col lg:flex-row gap-12 items-center mb-20">
@@ -145,7 +145,7 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
                 {route.cityFrom} {route.city} <span className="text-[#e6b422]">Parça Eşya Taşıma Nedir?</span>
               </h2>
               <div className="w-20 h-1.5 bg-[#e6b422] rounded-full mb-6"></div>
-              
+
               <div className="prose max-w-none text-gray-600 text-lg leading-relaxed">
                 {getIntroContent(route.cityFrom, route.city, getVariationIndex(route.slug, 3))}
               </div>
@@ -159,7 +159,7 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
                 </div>
               </div>
             </div>
-            
+
             <div className="lg:w-1/2 w-full">
               <div className="relative h-[400px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
                 <Image
@@ -180,7 +180,7 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
 
           {/* Long Form SEO Content Sections */}
           <div className="max-w-4xl mx-auto space-y-16">
-            
+
             {/* Section 1 */}
             <div>
               <h2 className="text-2xl md:text-3xl font-bold text-[#0D1C42] mb-4">
@@ -250,7 +250,7 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
                 {route.cityFrom} {route.city} Parça Eşya Taşıma Fiyatları Neye Göre Belirlenir?
               </h2>
               {getPricingContent(route.cityFrom, route.city, getVariationIndex(route.slug + "price", 3))}
-              
+
               <div className="mt-8 border-l-4 border-[#e6b422] pl-6 py-2">
                 <h3 className="font-bold text-xl text-[#0D1C42] mb-2">Sigorta Güvencesi</h3>
                 <p className="text-gray-600">
@@ -438,8 +438,8 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
         </div>
       </section>
 
-      <CTABanner 
-        title={`${route.cityFrom} ${route.city} Arası Güvenli Taşıma`} 
+      <CTABanner
+        title={`${route.cityFrom} ${route.city} Arası Güvenli Taşıma`}
         subtitle="Hemen arayın, eşyalarınız için en uygun fiyat garantisiyle profesyonel taşıma planlamanızı yapalım."
       />
     </>
