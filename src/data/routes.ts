@@ -1121,6 +1121,62 @@ export const routes: RouteData[] = [
     h1: "İstanbul Kayseri Parça Eşya Taşıma",
     introText: "İstanbul Kayseri parça eşya taşıma hizmetimizle, İç Anadolu'nun sanayi ve ticaret merkezi Kayseri'ye eşyalarınızı güvenle taşıyoruz. Global Nakliyat olarak İstanbul Kayseri parsiyel taşıma rotasında düzenli hizmet veriyoruz. İstanbul Kayseri arası parsiyel taşıma sürecinde eşyalarınız sigortalı ve güvenli şekilde taşınır. İstanbul Kayseri parça eşya nakliyesi için hemen arayın.",
     faqs: generateFAQs("İstanbul", "Kayseri", "770 km", "2-3 gün")
+  },
+  {
+    slug: "istanbul-eskisehir-parca-esya-tasima",
+    city: "Eskişehir",
+    cityFrom: "İstanbul",
+    region: "İç Anadolu",
+    regionSlug: "ic-anadolu",
+    distance: "300 km",
+    duration: "1-2 gün",
+    metaTitle: "İstanbul Eskişehir Parça Eşya Taşıma | Parsiyel Nakliyat - Global Nakliyat",
+    metaDescription: "İstanbul Eskişehir parça eşya taşıma ve parsiyel taşıma hizmetinde Global Nakliyat güvencesi. İstanbul Eskişehir arası parça eşya nakliyesi için hemen teklif alın. ☎ 0532 494 80 06",
+    h1: "İstanbul Eskişehir Parça Eşya Taşıma",
+    introText: "İstanbul Eskişehir parça eşya taşıma hizmetimizle, İç Anadolu'nun önemli öğrenci ve kültür şehri Eskişehir'e eşyalarınızı güvenle ulaştırıyoruz. Global Nakliyat olarak İstanbul Eskişehir parsiyel taşıma rotasında profesyonel hizmet sunuyoruz. İstanbul Eskişehir arası parsiyel taşıma sürecinde eşyalarınız özenle paketlenir ve sigortalı taşınır. İstanbul Eskişehir parça eşya nakliyesi için uygun fiyat teklifini alın.",
+    faqs: generateFAQs("İstanbul", "Eskişehir", "300 km", "1-2 gün")
+  },
+  {
+    slug: "istanbul-kutahya-parca-esya-tasima",
+    city: "Kütahya",
+    cityFrom: "İstanbul",
+    region: "Ege",
+    regionSlug: "ege",
+    distance: "330 km",
+    duration: "1-2 gün",
+    metaTitle: "İstanbul Kütahya Parça Eşya Taşıma | Parsiyel Nakliyat - Global Nakliyat",
+    metaDescription: "İstanbul Kütahya parça eşya taşıma ve parsiyel taşıma hizmetinde Global Nakliyat güvencesi. İstanbul Kütahya arası parça eşya nakliyesi için hemen teklif alın. ☎ 0532 494 80 06",
+    h1: "İstanbul Kütahya Parça Eşya Taşıma",
+    introText: "İstanbul Kütahya parça eşya taşıma hizmetimizle, çinileriyle ünlü Kütahya'ya eşyalarınızı güvenle ulaştırıyoruz. Global Nakliyat olarak İstanbul Kütahya parsiyel taşıma rotasında profesyonel ve düzenli hizmet sunuyoruz. İstanbul Kütahya arası parsiyel taşıma sürecinde eşyalarınız özenle paketlenir ve sigortalı taşınır. İstanbul Kütahya parça eşya nakliyesi için uygun fiyat teklifini alın.",
+    faqs: generateFAQs("İstanbul", "Kütahya", "330 km", "1-2 gün")
+  },
+  {
+    slug: "istanbul-bilecik-parca-esya-tasima",
+    city: "Bilecik",
+    cityFrom: "İstanbul",
+    region: "Marmara",
+    regionSlug: "marmara",
+    distance: "250 km",
+    duration: "1-2 gün",
+    metaTitle: "İstanbul Bilecik Parça Eşya Taşıma | Parsiyel Nakliyat - Global Nakliyat",
+    metaDescription: "İstanbul Bilecik parça eşya taşıma ve parsiyel taşıma hizmetinde Global Nakliyat güvencesi. İstanbul Bilecik arası parça eşya nakliyesi için hemen teklif alın. ☎ 0532 494 80 06",
+    h1: "İstanbul Bilecik Parça Eşya Taşıma",
+    introText: "İstanbul Bilecik parça eşya taşıma hizmetimizle, tarihi dokusuyla öne çıkan Bilecik'e eşyalarınızı güvenle ulaştırıyoruz. Global Nakliyat olarak İstanbul Bilecik parsiyel taşıma rotasında hızlı ve profesyonel hizmet sunuyoruz. İstanbul Bilecik arası parsiyel taşıma sürecinde eşyalarınız özenle paketlenir ve sigortalı taşınır. İstanbul Bilecik parça eşya nakliyesi için uygun fiyat teklifini alın.",
+    faqs: generateFAQs("İstanbul", "Bilecik", "250 km", "1-2 gün")
+  },
+  {
+    slug: "istanbul-isparta-parca-esya-tasima",
+    city: "Isparta",
+    cityFrom: "İstanbul",
+    region: "Akdeniz",
+    regionSlug: "akdeniz",
+    distance: "580 km",
+    duration: "1-2 gün",
+    metaTitle: "İstanbul Isparta Parça Eşya Taşıma | Parsiyel Nakliyat - Global Nakliyat",
+    metaDescription: "İstanbul Isparta parça eşya taşıma ve parsiyel taşıma hizmetinde Global Nakliyat güvencesi. İstanbul Isparta arası parça eşya nakliyesi için hemen teklif alın. ☎ 0532 494 80 06",
+    h1: "İstanbul Isparta Parça Eşya Taşıma",
+    introText: "İstanbul Isparta parça eşya taşıma hizmetimizle, güller diyarı Isparta'ya eşyalarınızı güvenle ulaştırıyoruz. Global Nakliyat olarak İstanbul Isparta parsiyel taşıma rotasında profesyonel hizmet sunuyoruz. İstanbul Isparta arası parsiyel taşıma sürecinde eşyalarınız özenle paketlenir ve sigortalı olarak taşınır. İstanbul Isparta parça eşya nakliyesi için uygun fiyat teklifini alın.",
+    faqs: generateFAQs("İstanbul", "Isparta", "580 km", "1-2 gün")
   }
 ];
 

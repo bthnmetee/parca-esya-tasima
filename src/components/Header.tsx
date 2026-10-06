@@ -29,6 +29,10 @@ const megaMenuCategories = [
       { name: "İstanbul Trabzon Taşıma", href: "/istanbul-trabzon-parca-esya-tasima" },
       { name: "İstanbul Konya Taşıma", href: "/istanbul-konya-parca-esya-tasima" },
       { name: "İstanbul Kayseri Taşıma", href: "/istanbul-kayseri-parca-esya-tasima" },
+      { name: "İstanbul Eskişehir Taşıma", href: "/istanbul-eskisehir-parca-esya-tasima" },
+      { name: "İstanbul Kütahya Taşıma", href: "/istanbul-kutahya-parca-esya-tasima" },
+      { name: "İstanbul Bilecik Taşıma", href: "/istanbul-bilecik-parca-esya-tasima" },
+      { name: "İstanbul Isparta Taşıma", href: "/istanbul-isparta-parca-esya-tasima" },
     ],
   },
   {
