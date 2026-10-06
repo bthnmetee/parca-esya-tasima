@@ -29,11 +29,11 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://www.istanbulparcaesyatasima.com"),
+  metadataBase: new URL("https://istanbulparcaesyatasima.com"),
   openGraph: {
     title: "Global Nakliyat | Şehirler Arası Parça Eşya Taşıma",
     description: "İstanbul çıkışlı Ege ve Akdeniz rotalarında sigortalı, güvenli ve ekonomik parsiyel nakliyat hizmeti. Hemen fiyat alın.",
-    url: "https://www.istanbulparcaesyatasima.com",
+    url: "https://istanbulparcaesyatasima.com",
     siteName: "Global Nakliyat",
     images: [
       {

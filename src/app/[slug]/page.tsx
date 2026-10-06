@@ -29,12 +29,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: route.metaTitle,
     description: route.metaDescription,
     alternates: {
-      canonical: `https://www.globalnakliyat.com.tr/${route.slug}`,
+      canonical: `/${route.slug}`,
     },
     openGraph: {
       title: route.metaTitle,
       description: route.metaDescription,
-      url: `https://www.globalnakliyat.com.tr/${route.slug}`,
+      url: `https://www.istanbulparcaesyatasima.com/${route.slug}`,
       siteName: "Global Nakliyat",
       locale: "tr_TR",
       type: "website",
@@ -62,19 +62,19 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
             "@type": "ListItem",
             "position": 1,
             "name": "Ana Sayfa",
-            "item": "https://www.globalnakliyat.com.tr"
+            "item": "https://www.istanbulparcaesyatasima.com"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Parça Eşya Taşıma",
-            "item": "https://www.globalnakliyat.com.tr/sehirler-arasi-parca-esya-tasima"
+            "item": "https://www.istanbulparcaesyatasima.com/sehirler-arasi-parca-esya-tasima"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": `${route.cityFrom} ${route.city} Parça Eşya Taşıma`,
-            "item": `https://www.globalnakliyat.com.tr/${route.slug}`
+            "item": `https://www.istanbulparcaesyatasima.com/${route.slug}`
           }
         ]
       },
@@ -84,7 +84,7 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
         "provider": {
           "@type": "LocalBusiness",
           "name": "Global Nakliyat",
-          "image": "https://www.globalnakliyat.com.tr/logo.png",
+          "image": "https://www.istanbulparcaesyatasima.com/logo.png",
           "telephone": "0532 494 80 06",
           "address": {
             "@type": "PostalAddress",
@@ -257,6 +257,125 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
                   Global Nakliyat olarak taşıdığımız her bir eşyayı yola çıkmadan önce teminat altına alıyoruz. <strong>Sigorta</strong> sayesinde eşyalarınızın başına gelebilecek olası kaza, yangın vb. durumlarda maddi kayıplarınızın önüne geçiyor ve tam güvence sağlıyoruz.
                 </p>
               </div>
+            </div>
+
+            {/* Section 7 - Taşınabilecek Eşya Türleri */}
+            <div className="bg-[#F8F9FC] p-8 rounded-2xl border border-gray-100">
+              <h2 className="text-2xl font-bold text-[#0D1C42] mb-4 flex items-center gap-3">
+                <span className="text-3xl">📋</span> {route.cityFrom} {route.city} Arası Hangi Eşyalar Taşınabilir?
+              </h2>
+              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+                <strong>{route.cityFrom} {route.city} arası parsiyel taşıma</strong> hizmetimiz kapsamında neredeyse her türlü ev eşyasını güvenle taşıyabiliyoruz. Müşterilerimizin en sık gönderdiği eşya kategorileri aşağıda listelenmiştir. Listede yer almayan özel eşyalarınız için de mutlaka bizimle iletişime geçmenizi öneririz.
+              </p>
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {[
+                  { icon: "🧊", title: "Beyaz Eşya", desc: "Buzdolabı, çamaşır makinesi, bulaşık makinesi, kurutma makinesi, fırın gibi büyük ev aletleri." },
+                  { icon: "🛋️", title: "Mobilya ve Koltuk", desc: "Koltuk takımı, berjer, yemek masası, sandalye, sehpa, TV ünitesi ve vitrin." },
+                  { icon: "🛏️", title: "Yatak Odası Eşyaları", desc: "Yatak, baza, gardırop, şifonyer, komodin ve makyaj masası." },
+                  { icon: "📦", title: "Koli ve Kutu", desc: "Kitap, kıyafet, mutfak gereçleri, kişisel eşyalar ve evrak kolileri." },
+                  { icon: "🎓", title: "Öğrenci Eşyası", desc: "Valiz, bavul, çalışma masası, mini buzdolabı ve kişisel eşyalar." },
+                  { icon: "💍", title: "Çeyiz Eşyası", desc: "Porselen takımlar, kristal vazolar, tekstil ürünleri ve hassas dekoratif eşyalar." },
+                ].map((item, idx) => (
+                  <div key={idx} className="bg-white p-4 rounded-xl border border-gray-100 shadow-sm">
+                    <div className="flex items-center gap-3 mb-2">
+                      <span className="text-2xl">{item.icon}</span>
+                      <h3 className="font-bold text-[#0D1C42]">{item.title}</h3>
+                    </div>
+                    <p className="text-gray-600 text-sm">{item.desc}</p>
+                  </div>
+                ))}
+              </div>
+              <p className="text-gray-600 text-sm mt-6 italic">
+                Bunların dışında piyano, antika mobilya, spor aletleri (koşu bandı, kondisyon bisikleti), bahçe mobilyaları ve elektronik eşyalar da parsiyel taşıma kapsamında güvenle gönderilebilmektedir.
+              </p>
+            </div>
+
+            {/* Section 8 - Neden Global Nakliyat */}
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-[#0D1C42] mb-4">
+                {route.cityFrom} {route.city} Parsiyel Taşımada Neden Global Nakliyat?
+              </h2>
+              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+                Şehirler arası parça eşya taşıma sektöründe onlarca firma faaliyet göstermektedir, ancak <strong>Global Nakliyat</strong> olarak 1992'den bu yana sürdürdüğümüz deneyimimizle fark yaratıyoruz. <strong>{route.cityFrom} {route.city} parsiyel nakliyat</strong> rotasında bizi tercih etmeniz için önemli sebepler:
+              </p>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="flex gap-4 items-start">
+                  <div className="w-12 h-12 bg-blue-50 text-[#0D1C42] rounded-full flex items-center justify-center shrink-0 text-xl">🚛</div>
+                  <div>
+                    <h3 className="font-bold text-[#0D1C42] text-lg mb-1">Öz Mal Araç Filosu</h3>
+                    <p className="text-gray-600 text-sm">Kiralık veya taşeron araç kullanmıyoruz. Tüm araçlarımız kendi bünyemize ait, bakımlı ve kapalı çelik kasalıdır. Bu sayede taşıma kalitesinden asla ödün vermiyoruz.</p>
+                  </div>
+                </div>
+                <div className="flex gap-4 items-start">
+                  <div className="w-12 h-12 bg-blue-50 text-[#0D1C42] rounded-full flex items-center justify-center shrink-0 text-xl">👷</div>
+                  <div>
+                    <h3 className="font-bold text-[#0D1C42] text-lg mb-1">Kadrolu ve Deneyimli Personel</h3>
+                    <p className="text-gray-600 text-sm">Günübirlik çalışanlar yerine, yıllardır bizimle çalışan eğitimli paketleme ve taşıma ekibimizle iş güvencesi sağlıyoruz. Her eşya profesyonel ellerde.</p>
+                  </div>
+                </div>
+                <div className="flex gap-4 items-start">
+                  <div className="w-12 h-12 bg-blue-50 text-[#0D1C42] rounded-full flex items-center justify-center shrink-0 text-xl">📅</div>
+                  <div>
+                    <h3 className="font-bold text-[#0D1C42] text-lg mb-1">Düzenli Haftalık Seferler</h3>
+                    <p className="text-gray-600 text-sm">Ege ve Akdeniz rotalarına her hafta düzenli sefer programımız bulunmaktadır. Bu sayede eşyalarınız kısa sürede ve planlanmış bir takvimle taşınır.</p>
+                  </div>
+                </div>
+                <div className="flex gap-4 items-start">
+                  <div className="w-12 h-12 bg-blue-50 text-[#0D1C42] rounded-full flex items-center justify-center shrink-0 text-xl">📞</div>
+                  <div>
+                    <h3 className="font-bold text-[#0D1C42] text-lg mb-1">Şeffaf İletişim ve Takip</h3>
+                    <p className="text-gray-600 text-sm">Eşyalarınız yola çıktığı andan teslimatına kadar sizi bilgilendiriyoruz. WhatsApp veya telefon üzerinden her an durumu öğrenebilirsiniz.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 9 - Ödeme ve Güvence */}
+            <div className="bg-gradient-to-r from-[#0D1C42] to-[#1a2d5a] text-white p-8 md:p-12 rounded-2xl relative overflow-hidden">
+              <div className="absolute bottom-0 left-0 opacity-5">
+                <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="50" y="50" width="200" height="200" rx="20" fill="#e6b422" />
+                </svg>
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold mb-4 relative z-10">
+                {route.cityFrom} {route.city} Parça Eşya Taşıma: Ödeme ve Müşteri Güvencesi
+              </h2>
+              <p className="text-gray-300 text-lg leading-relaxed mb-6 relative z-10">
+                Taşıma ücretiniz, eşyalarınız teslim alınmadan önce sizinle mutabık kalınan sabit fiyat üzerinden belirlenir. <strong className="text-white">Sonradan ek ücret veya gizli maliyet talep edilmez.</strong> Ödeme, eşyalarınız yeni adresinize sorunsuz teslim edildikten sonra yapılır. Bu, müşterilerimize sunduğumuz en önemli güvencelerden biridir.
+              </p>
+              <div className="grid sm:grid-cols-3 gap-4 relative z-10">
+                <div className="bg-white/10 backdrop-blur-sm p-4 rounded-xl">
+                  <div className="text-[#e6b422] text-2xl mb-2">💳</div>
+                  <h3 className="font-bold text-white mb-1">Esnek Ödeme</h3>
+                  <p className="text-gray-300 text-sm">Nakit, havale veya EFT ile ödeme imkanı.</p>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm p-4 rounded-xl">
+                  <div className="text-[#e6b422] text-2xl mb-2">🔒</div>
+                  <h3 className="font-bold text-white mb-1">Sabit Fiyat</h3>
+                  <p className="text-gray-300 text-sm">Anlaşılan fiyat değişmez, gizli ücret yoktur.</p>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm p-4 rounded-xl">
+                  <div className="text-[#e6b422] text-2xl mb-2">✅</div>
+                  <h3 className="font-bold text-white mb-1">Teslimatta Ödeme</h3>
+                  <p className="text-gray-300 text-sm">Eşyalarınız güvenle teslim edildikten sonra ödeme yapılır.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 10 - Kapanış / Sonuç */}
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-[#0D1C42] mb-4">
+                {route.cityFrom} {route.city} Parça Eşya Taşıma Hakkında Sonuç
+              </h2>
+              <p className="text-gray-600 text-lg leading-relaxed mb-4">
+                Sonuç olarak, <strong>{route.cityFrom} {route.city} arası parça eşya taşıma</strong> ihtiyacınız için Global Nakliyat size en güvenli, en ekonomik ve en profesyonel hizmeti sunmaktadır. 1992 yılından bu yana binlerce müşterinin eşyasını hasarsız şekilde yeni adreslerine ulaştıran deneyimimiz, bu alanda neden ilk tercih olduğumuzu açıkça ortaya koymaktadır.
+              </p>
+              <p className="text-gray-600 text-lg leading-relaxed mb-4">
+                İster tek bir buzdolabı, ister birkaç koli kişisel eşya, ister tam bir çeyiz seti taşıtmak isteyin; <strong>{route.cityFrom} - {route.city} parsiyel nakliyat</strong> hizmetimizle eşyalarınız profesyonelce paketlenir, sigortalanır ve zamanında teslim edilir. Araçlarımız her hafta düzenli olarak bu rotaya sefer düzenlemekte olup, eşyalarınızın teslim alınmasından itibaren ortalama <strong>{route.duration}</strong> içerisinde yeni adresinize ulaştırılması sağlanır.
+              </p>
+              <p className="text-gray-600 text-lg leading-relaxed">
+                Ücretsiz fiyat teklifi almak, eşyalarınızın hacmine göre net maliyet bilgisi öğrenmek veya sefer takvimimiz hakkında bilgi edinmek için bizi hemen arayabilir ya da WhatsApp üzerinden eşya fotoğraflarınızı göndererek dakikalar içinde teklif alabilirsiniz. <strong>Global Nakliyat</strong> güvencesiyle, eşyalarınız güvende.
+              </p>
             </div>
 
           </div>

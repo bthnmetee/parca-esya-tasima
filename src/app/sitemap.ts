@@ -1,11 +1,19 @@
 import { MetadataRoute } from 'next';
 import { routes } from '@/data/routes';
+import { services } from '@/data/services';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.istanbulparcaesyatasima.com';
+  const baseUrl = 'https://istanbulparcaesyatasima.com';
 
   const routeUrls = routes.map((route) => ({
     url: `${baseUrl}/${route.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.8,
+  }));
+
+  const serviceUrls = services.map((service) => ({
+    url: `${baseUrl}/${service.slug}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 0.8,
@@ -31,6 +39,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/evden-eve-nakliyat`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/sehirler-arasi-nakliyat`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/sehirler-arasi-parca-esya-tasima`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,
@@ -38,5 +58,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  return [...staticUrls, ...routeUrls];
+  return [...staticUrls, ...serviceUrls, ...routeUrls];
 }

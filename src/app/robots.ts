@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://www.istanbulparcaesyatasima.com/sitemap.xml',
+    sitemap: 'https://istanbulparcaesyatasima.com/sitemap.xml',
   };
 }

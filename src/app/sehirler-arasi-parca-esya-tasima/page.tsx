@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Şehirler Arası Parça Eşya Taşıma",
     description: "İstanbul'dan tüm Türkiye'ye sigortalı parsiyel nakliyat çözümleri.",
-    url: "https://www.globalnakliyat.com.tr/sehirler-arasi-parca-esya-tasima",
+    url: "https://www.istanbulparcaesyatasima.com/sehirler-arasi-parca-esya-tasima",
   }
 };
 
@@ -24,7 +24,7 @@ export default function ParcaEsyaTasimaPage() {
     "@type": "WebPage",
     "name": "Şehirler Arası Parça Eşya Taşıma",
     "description": "Türkiye genelinde sigortalı şehirler arası parça eşya taşıma ve parsiyel nakliyat hizmeti.",
-    "url": "https://www.globalnakliyat.com.tr/sehirler-arasi-parca-esya-tasima"
+    "url": "https://www.istanbulparcaesyatasima.com/sehirler-arasi-parca-esya-tasima"
   };
 
   return (
@@ -88,6 +88,115 @@ export default function ParcaEsyaTasimaPage() {
                 </div>
               </div>
             ))}
+          </div>
+
+          {/* Extended SEO Content for 1200+ Words Goal */}
+          <div className="max-w-4xl mx-auto space-y-16 mt-20 border-t border-gray-100 pt-16">
+            
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-[#0D1C42] mb-6">
+                Şehirler Arası Parsiyel (Parça) Eşya Taşıma Nedir?
+              </h2>
+              <p className="text-gray-600 text-lg leading-relaxed mb-4">
+                <strong>Parsiyel eşya taşıma</strong> ya da halk arasındaki adıyla <strong>parça eşya taşıma</strong>, aynı veya benzer güzergahlara giden birden fazla müşteriye ait eşyaların, ortak bir nakliye aracında taşınması sistemidir. Bu sistemin temel amacı, bir aracı tamamen doldurmayacak kadar az sayıda eşyası olan kişilerin (örneğin birkaç koli, tek bir çamaşır makinesi veya bir öğrenci evi eşyası) yüksek tam kamyon ücretleri ödemesini engellemektir.
+              </p>
+              <p className="text-gray-600 text-lg leading-relaxed mb-4">
+                Özellikle İstanbul çıkışlı <strong>Ege, Akdeniz ve Marmara</strong> rotalarında yazlıklarına eşya göndermek isteyenler, atanan memurlar, öğrenciler veya çeyiz eşyası taşıtan çiftler için en ideal taşıma yöntemi parsiyel taşımacılıktır. Global Nakliyat olarak her hafta düzenlediğimiz Ege ve Akdeniz seferlerimizle, müşterilerimize kargo şirketlerinden çok daha ucuz, klasik nakliyeden ise çok daha güvenli bir alternatif sunuyoruz.
+              </p>
+            </div>
+
+            <div className="bg-[#F8F9FC] p-8 rounded-2xl border border-gray-100">
+              <h2 className="text-2xl font-bold text-[#0D1C42] mb-6 flex items-center gap-3">
+                <span className="text-3xl">💡</span> Parça Eşya Taşımanın Avantajları Nelerdir?
+              </h2>
+              <ul className="space-y-4">
+                <li className="flex items-start gap-4">
+                  <div className="w-10 h-10 bg-[#0D1C42] text-[#e6b422] rounded-full flex items-center justify-center shrink-0 font-bold">1</div>
+                  <div>
+                    <h3 className="text-lg font-bold text-[#0D1C42] mb-1">Maliyet Tasarrufu (Ekonomik Fiyat)</h3>
+                    <p className="text-gray-600 text-base">Komple araç kiralamak yerine sadece eşyanızın araçta kapladığı alan (metreküp) kadar ödeme yaparsınız. Bu sayede taşıma maliyetleriniz %60 ila %70 oranında azalır.</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4">
+                  <div className="w-10 h-10 bg-[#0D1C42] text-[#e6b422] rounded-full flex items-center justify-center shrink-0 font-bold">2</div>
+                  <div>
+                    <h3 className="text-lg font-bold text-[#0D1C42] mb-1">Kargolara Göre Daha Güvenli</h3>
+                    <p className="text-gray-600 text-base">Standart kargo firmaları eşyalarınızı aktarma merkezlerinde defalarca indirip bindirir. Parsiyel nakliyede ise eşyanız evinizden alınır ve direkt olarak yeni evinize götürülür. Çarpma ve kırılma riski minimize edilir.</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4">
+                  <div className="w-10 h-10 bg-[#0D1C42] text-[#e6b422] rounded-full flex items-center justify-center shrink-0 font-bold">3</div>
+                  <div>
+                    <h3 className="text-lg font-bold text-[#0D1C42] mb-1">Ambalajlama ve Kurulum Hizmeti</h3>
+                    <p className="text-gray-600 text-base">Eşyalarınız alanında uzman personelimiz tarafından balonlu naylonlar ve kalın streçlerle paketlenir. İhtiyaç halinde demonte mobilyalarınız sökülür ve varış yerinde tekrar kurulur.</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4">
+                  <div className="w-10 h-10 bg-[#0D1C42] text-[#e6b422] rounded-full flex items-center justify-center shrink-0 font-bold">4</div>
+                  <div>
+                    <h3 className="text-lg font-bold text-[#0D1C42] mb-1">Esnek Sefer Programı</h3>
+                    <p className="text-gray-600 text-base">Özellikle yaz aylarında artan sefer sayılarımız sayesinde eşyalarınız günlerce beklemez. En yakın sefer programına dahil edilerek kısa sürede teslimatı sağlanır.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-[#0D1C42] mb-6">
+                Eşyalarım Diğer Müşterilerin Eşyalarıyla Karışır Mı?
+              </h2>
+              <p className="text-gray-600 text-lg leading-relaxed mb-4">
+                Parsiyel eşya taşımacılığı yaptırmak isteyen müşterilerimizin en çok endişe ettiği konu "Acaba eşyalarım başka birinin eşyasıyla karışır mı veya yanlış yere gider mi?" sorusudur. Global Nakliyat'ın yıllara dayanan tecrübesi ve sistematik çalışma prensibi sayesinde <strong>bu risk sıfırdır.</strong>
+              </p>
+              <p className="text-gray-600 text-lg leading-relaxed mb-4">
+                Araçlarımıza yükleme yapılırken <strong>son teslim edilecek eşya en ilk, ilk teslim edilecek eşya ise en son</strong> yüklenir (LIFO prensibi - Last In, First Out). Ayrıca her müşterinin eşyası; araç içerisinde sunta bölmeler, gergi spanzetleri veya taşıma ağları (fileler) ile fiziksel olarak birbirinden tamamen ayrılır. Her müşterinin eşyalarının üzerine özel etiketler ve barkodlar yapıştırılarak takip kolaylığı sağlanır.
+              </p>
+            </div>
+
+            <div className="bg-[#0D1C42] text-white p-8 md:p-12 rounded-2xl relative overflow-hidden">
+              <div className="absolute right-0 top-0 opacity-10">
+                <svg width="250" height="250" viewBox="0 0 24 24" fill="none" stroke="#e6b422" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="12" y1="8" x2="12" y2="16"></line>
+                  <line x1="8" y1="12" x2="16" y2="12"></line>
+                </svg>
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold mb-4 relative z-10">
+                Tam Kapsamlı Taşıma Sigortası
+              </h2>
+              <p className="text-gray-300 text-lg leading-relaxed relative z-10 mb-6">
+                Şehirler arası yollarda eşyalarınızın başına gelebilecek trafik kazası, yangın veya çalınma gibi tüm elde olmayan risklere karşı Global Nakliyat olarak önlemimizi alıyoruz. Taşımasını gerçekleştirdiğimiz tüm eşyalar yola çıkmadan önce poliçelendirilerek <strong>emtia taşıma sigortası</strong> güvencesi altına alınır.
+              </p>
+              <div className="grid sm:grid-cols-2 gap-4 relative z-10">
+                <div className="bg-white/10 p-4 rounded-xl backdrop-blur-sm border border-white/20">
+                  <h3 className="font-bold text-[#e6b422] mb-1">Maddi Güvence</h3>
+                  <p className="text-gray-300 text-sm">Olası hasar durumlarında zararınız sigorta acentesi tarafından eksiksiz karşılanır.</p>
+                </div>
+                <div className="bg-white/10 p-4 rounded-xl backdrop-blur-sm border border-white/20">
+                  <h3 className="font-bold text-[#e6b422] mb-1">Resmi Sözleşme</h3>
+                  <p className="text-gray-300 text-sm">Taşıma günü, fiyat ve sigorta şartları resmi nakliye sözleşmesi ile imza altına alınır.</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-[#0D1C42] mb-6">
+                Parsiyel Nakliyat Fiyatları Nasıl Hesaplanır?
+              </h2>
+              <p className="text-gray-600 text-lg leading-relaxed mb-4">
+                <strong>Şehirler arası parça eşya taşıma fiyatları</strong> belirlenirken, kargo şirketlerinin aksine desiden (ağırlık) ziyade hacim (metreküp) dikkate alınır. Çünkü nakliye araçlarımızda eşyaların kapladığı alan maliyeti belirleyen ana unsurdur. Fiyatlandırma yapılırken şu kriterler göz önünde bulundurulur:
+              </p>
+              <ul className="list-none space-y-2 mb-6">
+                <li className="flex items-center gap-2 text-gray-600 text-lg"><span className="text-[#e6b422]">■</span> Toplam eşyanın araçta kapladığı alan (m3)</li>
+                <li className="flex items-center gap-2 text-gray-600 text-lg"><span className="text-[#e6b422]">■</span> Eşyaların alınacağı il/ilçe ile teslim edileceği il/ilçe arasındaki mesafe</li>
+                <li className="flex items-center gap-2 text-gray-600 text-lg"><span className="text-[#e6b422]">■</span> Binaların kat durumları (Asansörlü mü, merdivenli mi?)</li>
+                <li className="flex items-center gap-2 text-gray-600 text-lg"><span className="text-[#e6b422]">■</span> İstenilen ekstra hizmetler (Montaj, ekstra ambalajlama vb.)</li>
+              </ul>
+              <p className="text-gray-600 text-lg leading-relaxed">
+                Müşteri hizmetlerimizi arayarak veya WhatsApp hattımız üzerinden taşınacak eşyalarınızın fotoğrafını ya da listesini ileterek çok kısa sürede <strong>net parça eşya taşıma fiyatı</strong> alabilirsiniz. Size verilen fiyat sabittir, taşıma günü geldiğinde anlaşılmayan hiçbir ekstra ücret (mazot farkı, kat farkı vs.) talep edilmez.
+              </p>
+            </div>
+
           </div>
         </div>
       </section>

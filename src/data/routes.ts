@@ -251,6 +251,20 @@ export const routes: RouteData[] = [
     faqs: generateFAQs("İstanbul", "Akçay", "385 km", "1-2 gün")
   },
   {
+    slug: "istanbul-gomec-parca-esya-tasima",
+    city: "Gömeç",
+    cityFrom: "İstanbul",
+    region: "Kuzey Ege",
+    regionSlug: "kuzey-ege",
+    distance: "410 km",
+    duration: "1-2 gün",
+    metaTitle: "İstanbul Gömeç Parça Eşya Taşıma | Parsiyel Nakliyat - Global Nakliyat",
+    metaDescription: "İstanbul Gömeç parça eşya taşıma ve parsiyel taşıma hizmetinde Global Nakliyat güvencesi. İstanbul Gömeç arası parça eşya nakliyesi için hemen teklif alın. ☎ 0532 494 80 06",
+    h1: "İstanbul Gömeç Parça Eşya Taşıma",
+    introText: "İstanbul Gömeç parça eşya taşıma hizmetimizle, Körfez'in sakin ve huzurlu ilçesi Gömeç'e eşyalarınızı güvenle taşıyoruz. Global Nakliyat olarak İstanbul Gömeç parsiyel taşıma hizmetinde düzenli seferlerimizle ekonomik ve sorunsuz nakliye imkanı sunuyoruz. İstanbul Gömeç arası parsiyel taşıma sürecinde tüm eşyalarınız özenle paketlenir ve sigortalı şekilde taşınır. İstanbul Gömeç parça eşya nakliyesi için fiyat teklifimizi hemen alın.",
+    faqs: generateFAQs("İstanbul", "Gömeç", "410 km", "1-2 gün")
+  },
+  {
     slug: "istanbul-kucukkuyu-parca-esya-tasima",
     city: "Küçükkuyu",
     cityFrom: "İstanbul",

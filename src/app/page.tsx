@@ -19,7 +19,7 @@ export default function Home() {
       {
         "@type": "MovingCompany",
         "name": "Global Nakliyat",
-        "image": "https://www.globalnakliyat.com.tr/images/global-nakliye.jpg",
+        "image": "https://www.istanbulparcaesyatasima.com/images/global-nakliye.jpg",
         "description": "İstanbul çıkışlı Ege ve Akdeniz rotalarında sigortalı, güvenli ve ekonomik şehirler arası parça eşya taşıma.",
         "address": {
           "@type": "PostalAddress",
@@ -27,7 +27,7 @@ export default function Home() {
           "addressCountry": "TR"
         },
         "telephone": "+905324948006",
-        "url": "https://www.globalnakliyat.com.tr",
+        "url": "https://www.istanbulparcaesyatasima.com",
         "areaServed": ["İstanbul", "İzmir", "Muğla", "Antalya", "Balıkesir", "Çanakkale", "Aydın"],
         "priceRange": "₺₺",
         "foundingDate": "1992"

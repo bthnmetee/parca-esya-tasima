@@ -14,7 +14,7 @@ export default function ServicePageTemplate({ service }: { service: ServiceData 
     "provider": {
       "@type": "LocalBusiness",
       "name": "Global Nakliyat",
-      "image": "https://www.globalnakliyat.com.tr/logo.png",
+      "image": "https://www.istanbulparcaesyatasima.com/logo.png",
       "telephone": "0532 494 80 06"
     },
     "description": service.metaDescription,
@@ -68,7 +68,7 @@ export default function ServicePageTemplate({ service }: { service: ServiceData 
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed mb-10">{service.content.pricing}</p>
 
-              <div className="border-l-4 border-[#e6b422] pl-6 py-2 mt-8">
+              <div className="border-l-4 border-[#e6b422] pl-6 py-2 mt-8 mb-12">
                 <h4 className="font-bold text-xl text-[#0D1C42] mb-2">Avantajlarımız</h4>
                 <ul className="grid sm:grid-cols-2 gap-4 mt-4">
                   {service.features.map((feature, idx) => (
@@ -77,6 +77,61 @@ export default function ServicePageTemplate({ service }: { service: ServiceData 
                     </li>
                   ))}
                 </ul>
+              </div>
+
+              {/* Ekstra SEO İçerik Bölümleri */}
+              <div className="space-y-12 border-t border-gray-100 pt-12">
+                <div>
+                  <h3 className="text-2xl font-bold text-[#0D1C42] mb-4">
+                    {service.h1} Sürecinde Profesyonel Paketleme
+                  </h3>
+                  <p className="text-gray-600 text-lg leading-relaxed mb-4">
+                    Taşımacılık sektöründe eşyaların hasarsız bir şekilde yeni adreslerine ulaştırılmasının en önemli şartı, doğru ve profesyonel paketlemedir. Global Nakliyat olarak <strong>{service.h1.toLowerCase()}</strong> hizmetimizde paketleme aşamasına ekstra özen gösteriyoruz. Alanında uzman, kadrolu personellerimiz tarafından eşyalarınızın yapısına ve hassasiyetine en uygun ambalaj malzemeleri seçilmektedir.
+                  </p>
+                  <p className="text-gray-600 text-lg leading-relaxed">
+                    Kırılacak eşyalarınız özel kraft kağıtlar ve havalı balonlu naylonlarla (patpat) sarılırken, mobilyalarınız ve beyaz eşyalarınız çizilmelere karşı kalın streç filmlerle korunur. Elektronik cihazlarınız ve hassas yüzeyli eşyalarınız için ise ekstra koruyucu köşelikler ve battaniyeler kullanılarak araç içerisinde sarsıntılardan etkilenmelerinin önüne geçilir. Profesyonel paketleme standartlarımız sayesinde eşyalarınız ilk günkü temizliği ve sağlamlığı ile yeni evinize veya ofisinize teslim edilir.
+                  </p>
+                </div>
+
+                <div className="bg-[#0D1C42] text-white p-8 rounded-2xl relative overflow-hidden">
+                  <div className="absolute right-0 top-0 w-32 h-32 bg-[#e6b422]/20 rounded-bl-full blur-2xl"></div>
+                  <h3 className="text-2xl font-bold mb-4 relative z-10 flex items-center gap-3">
+                    <span className="text-3xl">🛡️</span> %100 Sigorta Güvencesi
+                  </h3>
+                  <p className="text-gray-300 text-lg leading-relaxed relative z-10">
+                    Gerek şehir içi gerekse şehirler arası taşımacılıkta en çok endişe edilen konu, eşyaların zarar görme ihtimalidir. Bu endişeyi tamamen ortadan kaldırmak amacıyla, taşınan her bir parça eşyanız anlaşmalı sigorta acentelerimiz aracılığıyla tam kapsamlı olarak güvence altına alınır.
+                  </p>
+                  <p className="text-gray-300 text-lg leading-relaxed mt-4 relative z-10">
+                    Sigortalı taşımacılık ilkemiz gereği, eşyalarınız evinizden teslim alındığı andan itibaren poliçe kapsamına girer ve yeni adresinize sorunsuz bir şekilde yerleştirilene kadar sigorta güvencesinde kalır. Olası bir trafik kazası, yangın veya doğal afet gibi elde olmayan risklere karşı maddi ve manevi kayıplarınızın önüne geçiyor, huzurlu bir taşınma deneyimi sunuyoruz.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-[#0D1C42] mb-4">
+                    Neden Global Nakliyat'ı Tercih Etmelisiniz?
+                  </h3>
+                  <p className="text-gray-600 text-lg leading-relaxed mb-6">
+                    1992 yılından beri sektörde faaliyet gösteren firmamız, kazandığı bilgi birikimi ve tecrübeyi her geçen gün modern nakliye teknolojileri ile harmanlamaktadır. <strong>{service.title.split('|')[0].trim()}</strong> alanında bizi öne çıkaran başlıca özelliklerimiz şunlardır:
+                  </p>
+                  <div className="grid sm:grid-cols-2 gap-6">
+                    <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
+                      <h4 className="font-bold text-[#0D1C42] mb-2">Öz Mal Araç Filosu</h4>
+                      <p className="text-gray-600 text-sm">Taşeron veya kiralık araç kullanmıyoruz. Tüm nakliye operasyonlarımız, kendi logomuzu taşıyan, düzenli bakımları yapılan kapalı çelik kasalı araçlarımızla gerçekleştirilir.</p>
+                    </div>
+                    <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
+                      <h4 className="font-bold text-[#0D1C42] mb-2">Sözleşmeli Taşıma</h4>
+                      <p className="text-gray-600 text-sm">Karşılıklı hakları korumak adına tüm taşımalarımızda resmi nakliye sözleşmesi imzalanır. Söz verilen gün, saat ve sabit fiyat garantisi yazılı olarak teyit edilir.</p>
+                    </div>
+                    <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
+                      <h4 className="font-bold text-[#0D1C42] mb-2">Uzman Demontaj & Montaj</h4>
+                      <p className="text-gray-600 text-sm">Ekiplerimiz içerisinde yer alan tecrübeli marangozlarımız sayesinde, gardırop, tv ünitesi gibi mobilyalarınızın söküm ve kurulum işlemleri hatasız yapılır.</p>
+                    </div>
+                    <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
+                      <h4 className="font-bold text-[#0D1C42] mb-2">7/24 İletişim ve Destek</h4>
+                      <p className="text-gray-600 text-sm">Taşınma sürecinin her aşamasında müşteri temsilcilerimize doğrudan ulaşabilir, eşyalarınızın durumu ve araç konumu hakkında anlık bilgi alabilirsiniz.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 

@@ -63,6 +63,76 @@ export default function EvdenEveNakliyatPage() {
               </div>
             </div>
           </div>
+
+          {/* Extended SEO Content */}
+          <div className="max-w-4xl mx-auto space-y-16 mt-20 border-t border-gray-100 pt-16">
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-[#0D1C42] mb-6">
+                Şehir İçi ve Şehirler Arası Evden Eve Nakliyat Çözümleri
+              </h2>
+              <p className="text-gray-600 text-lg leading-relaxed mb-4">
+                <strong>Evden eve nakliyat</strong>, yalnızca eşyaların bir adresten başka bir adrese taşınmasından ibaret değildir; aynı zamanda insanların anılarını, yaşam alanlarını ve değer verdikleri tüm eşyaları yeni bir mekana güvenle taşıma sürecidir. Global Nakliyat olarak, gerek İstanbul içi gerekse şehirler arası tüm taşınma ihtiyaçlarınızda modern, güvenilir ve yenilikçi çözümler sunmaktayız. Taşınma gününün getirdiği stresi ve yorgunluğu üzerinizden alarak, süreci sizin için son derece konforlu bir deneyime dönüştürüyoruz.
+              </p>
+              <p className="text-gray-600 text-lg leading-relaxed mb-4">
+                Nakliyat sürecine başlamadan önce gönderdiğimiz ücretsiz ekspertiz ekibi, eşyalarınızın hacmini, bulunduğunuz ve taşınacağınız evlerin kat durumunu, asansör kullanım imkanlarını detaylı bir şekilde analiz eder. Bu analiz sonucunda size en uygun araç tipi ve personel sayısı belirlenir. Bu şeffaf fiyatlandırma politikası sayesinde taşıma günü hiçbir kötü sürprizle veya ek ücret talebiyle karşılaşmazsınız.
+              </p>
+            </div>
+
+            <div className="bg-[#F8F9FC] p-8 rounded-2xl border border-gray-100">
+              <h2 className="text-2xl font-bold text-[#0D1C42] mb-6 flex items-center gap-3">
+                <span className="text-3xl">🛡️</span> Asansörlü Evden Eve Nakliyat İle %100 Güvenlik
+              </h2>
+              <p className="text-gray-600 text-lg leading-relaxed mb-4">
+                Özellikle büyük şehirlerdeki yüksek katlı binalarda veya bina asansörünün eşya taşımasına uygun olmadığı apartmanlarda <strong>asansörlü evden eve nakliyat</strong> hizmeti büyük bir avantaj sağlamaktadır. Dış cephe asansör sistemlerimiz sayesinde, eşyalarınız bina merdivenlerinden taşınırken oluşabilecek çarpma, çizilme ve kırılma risklerinden tamamen korunur.
+              </p>
+              <p className="text-gray-600 text-lg leading-relaxed mb-4">
+                Asansörlü taşıma aynı zamanda nakliyat sürecini yarı yarıya hızlandırır. Saatlerce sürecek olan bedensel taşıma işlemleri, hidrolik asansör sistemlerimizle dakikalar içinde tamamlanır. Bu durum hem çevreye ve komşulara verilen rahatsızlığı en aza indirir hem de eşyalarınızın çok daha sarsıntısız ve güvenli bir şekilde nakliye aracına yüklenmesini sağlar. Dış cephe asansörlerimiz 20. kata kadar güvenle ulaşabilme kapasitesine sahiptir.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-[#0D1C42] mb-6">
+                Eksiksiz Ambalajlama ve Marangozlu Taşıma Hizmeti
+              </h2>
+              <p className="text-gray-600 text-lg leading-relaxed mb-4">
+                Sıfır hata prensibiyle yürüttüğümüz nakliye işlemlerinin en önemli aşaması paketleme ve ambalajlamadır. Evinizdeki tüm eşyalar, cinsine ve hassasiyet derecesine göre gruplandırılarak özel malzemelerle sarılır.
+              </p>
+              <ul className="space-y-4 mb-6">
+                <li className="flex gap-3">
+                  <span className="text-[#e6b422] font-bold text-xl">✓</span>
+                  <p className="text-gray-600"><strong>Mobilyalar:</strong> Gardırop, yemek masası, yatak odası takımları gibi büyük mobilyalarınız, uzman marangozlarımız tarafından özenle sökülür. Parçalar havalı balonlu naylonlar ve kalın streç filmlerle kaplanarak çizilmelere karşı koruma altına alınır.</p>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-[#e6b422] font-bold text-xl">✓</span>
+                  <p className="text-gray-600"><strong>Beyaz Eşyalar:</strong> Buzdolabı, çamaşır ve bulaşık makineleriniz tesisatlarından söküldükten sonra taşıma esnasında sarsıntıdan etkilenmemesi için sabitleyici köpükler ve kalın kılıflarla sarılır.</p>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-[#e6b422] font-bold text-xl">✓</span>
+                  <p className="text-gray-600"><strong>Kırılacak Eşyalar:</strong> Mutfak gereçleri, vitrin eşyaları ve dekoratif ürünleriniz özel ambalaj kağıtlarına sarılarak darbeye dayanıklı sert karton koliler içerisine istiflenir. Kolilerin üzerine gerekli uyarı etiketleri yapıştırılır.</p>
+                </li>
+              </ul>
+              <p className="text-gray-600 text-lg leading-relaxed mb-4">
+                Yeni evinize ulaştığımızda ise tüm bu işlemler tersine uygulanır. Marangozlarımız mobilyalarınızın kurulumunu sizin istediğiniz odalara ve belirttiğiniz dizayna göre gerçekleştirir. Beyaz eşyalarınızın bağlantıları yapılır ve eşyalarınız tam kullanıma hazır halde size teslim edilir.
+              </p>
+            </div>
+
+            <div className="bg-[#0D1C42] text-white p-8 md:p-12 rounded-2xl relative overflow-hidden">
+              <div className="absolute top-0 right-0 opacity-10">
+                <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="100" cy="100" r="100" fill="#e6b422" />
+                </svg>
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold mb-4 relative z-10">
+                Garantili ve Sigortalı Evden Eve Taşımacılık
+              </h2>
+              <p className="text-gray-300 text-lg leading-relaxed relative z-10 mb-4">
+                Ne kadar dikkatli ve özenli taşıma yapılırsa yapılsın, karayolu taşımacılığında beklenmedik durumlar (kaza, yangın vb.) yaşanma ihtimali her zaman vardır. Bu nedenle Global Nakliyat, gerçekleştirdiği tüm evden eve nakliyat işlemlerinde <strong>tam kapsamlı emtia sigortası</strong> uygulamaktadır.
+              </p>
+              <p className="text-gray-300 text-lg leading-relaxed relative z-10">
+                Eşyalarınız araca yüklendiği andan itibaren başlayan bu sigorta güvencesi, yeni evinizde kurulumların tamamlanıp eşyaların teslim edilmesine kadar devam eder. Bizimle çalıştığınızda eşyalarınızın maddi değerinin daima koruma altında olduğunu bilirsiniz. Güvenli, stressiz ve profesyonel bir taşınma deneyimi için, müşteri memnuniyeti odaklı hizmetimizden yararlanmak üzere hemen bizimle iletişime geçin ve randevunuzu oluşturun.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
