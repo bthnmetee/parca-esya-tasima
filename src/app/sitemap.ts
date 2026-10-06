@@ -2,6 +2,8 @@ import { MetadataRoute } from 'next';
 import { routes } from '@/data/routes';
 import { services } from '@/data/services';
 
+export const dynamic = 'force-static';
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://istanbulparcaesyatasima.com';
 
