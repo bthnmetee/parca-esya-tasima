@@ -49,6 +49,7 @@ export default function Footer() {
               <li><Link href="/sehirler-arasi-nakliyat" className="text-gray-300 hover:text-[#e6b422] transition-colors">Şehirler Arası Nakliyat</Link></li>
               <li><Link href="/hakkimizda" className="text-gray-300 hover:text-[#e6b422] transition-colors">Hakkımızda</Link></li>
               <li><Link href="/iletisim" className="text-gray-300 hover:text-[#e6b422] transition-colors">İletişim</Link></li>
+              <li><a href="https://globalnakliyat.com.tr/" className="text-gray-300 hover:text-[#e6b422] transition-colors">Ofis Taşıma</a></li>
             </ul>
           </div>
 
@@ -102,6 +103,9 @@ export default function Footer() {
             <Link href="/gizlilik-politikasi" className="hover:text-white transition-colors">Gizlilik Politikası</Link>
           </div>
         </div>
+        <p className="text-center text-white text-sm mt-6">
+          <a href="https://www.spindorai.com/seo/en-iyi-seo-ajansi" className="text-[#e6b422] hover:text-white transition-colors">Seo Firması</a> Spindora Tarafından Çalışması Yapılmıştır.
+        </p>
       </div>
     </footer>
   );

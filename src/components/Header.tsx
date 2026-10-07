@@ -185,11 +185,11 @@ export default function Header() {
                 0532 494 80 06
               </a>
               {/* Email */}
-              <a href="mailto:info@globalnakliyat.com" className="hidden md:flex items-center gap-1.5 text-gray-300 hover:text-[#e6b422] transition-colors">
+              <a href="mailto:info@globalnakliyat.com.tr" className="hidden md:flex items-center gap-1.5 text-gray-300 hover:text-[#e6b422] transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-3.5 w-3.5 text-[#e6b422]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                info@globalnakliyat.com
+                info@globalnakliyat.com.tr
               </a>
             </div>
             <div className="flex items-center gap-4">

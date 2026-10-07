@@ -205,6 +205,32 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--color-brand-light);
 }
 
+.quiet-scroll {
+  scrollbar-width: none;
+}
+
+.quiet-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.quiet-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.quiet-scroll::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.quiet-scroll.is-scrolling {
+  scrollbar-width: thin;
+  scrollbar-color: #0d1c42 transparent;
+}
+
+.quiet-scroll.is-scrolling::-webkit-scrollbar-thumb {
+  background: #0d1c42;
+  border-radius: 4px;
+}
+
 /* Mega menu staggered column animation */
 @keyframes megaMenuFadeIn {
   0% {
